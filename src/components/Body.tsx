@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faLocationDot, faPhone  } from '@fortawesome/free-solid-svg-icons';
-import { faWhatsapp, faTiktok, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp, faTiktok, faFacebook, faInstagram, faLinkedin  } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import './style.css';
 
@@ -15,12 +15,12 @@ return (
                 <FontAwesomeIcon icon={faGlobe} className='bg-white px-2 text-[#991C1A]' />
             </button>
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/company/efeegypt/posts/?feedView=all">
             <button
                 className="border-4 border-[#E67326] bg-white text-black w-[100%]  px-4 py-2 rounded-xl text-2xl font-semibold drop-shadow-lg my-2
                 transition duration-300 ease-in-out hover:scale-105">
-                WhatsApp
-                <FontAwesomeIcon icon={faWhatsapp} className='bg-white px-2 text-[#991C1A]' />
+                Linkedin
+                <FontAwesomeIcon icon={faLinkedin } className='bg-white px-2 text-[#991C1A]' />
             </button>
         </a>
         <a href="https://www.facebook.com/@EFEEgypt">
@@ -53,6 +53,14 @@ return (
                 transition duration-300 ease-in-out hover:scale-105">
                 Location
                 <FontAwesomeIcon icon={faLocationDot } className='bg-white px-2 text-[#991C1A]' />
+            </button>
+        </a>
+        <a href="#">
+            <button
+                className="border-4 border-[#E67326] bg-white text-black w-[100%]  px-4 py-2 rounded-xl text-2xl font-semibold drop-shadow-lg my-2
+                transition duration-300 ease-in-out hover:scale-105">
+                WhatsApp
+                <FontAwesomeIcon icon={faWhatsapp} className='bg-white px-2 text-[#991C1A]' />
             </button>
         </a>
         <Link to="/contact">
